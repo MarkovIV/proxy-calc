@@ -5,17 +5,20 @@ export interface IProxy {
 	price: number
 }
 
-export interface IProxyType {
+export interface IProxyTypeWithMinPrice {
   id: number
-  title: string
+  label: string
+  minPrice: number
 }
 
-export interface IProxyCountry {
+export interface IProxyCountryWithMinPrice {
   id: number
-  title: string
+  label: string
+  minPrice: number
 }
 
-export interface IProxyPeriod {
+export interface IProxyPeriodWithMinPrice {
   id: number
-  title: string
+  label: string
+  minPrice: number
 }
